@@ -1,3 +1,4 @@
+ HEAD
 const fs = require('fs')
 const reqHandler = (req,res) => {
     const url = req.url
@@ -42,6 +43,4 @@ const reqHandler = (req,res) => {
     
 }
 exports.handler = reqHandler;
-
-               
 
